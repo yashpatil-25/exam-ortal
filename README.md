@@ -1,8 +1,65 @@
-# React + Vite
+# Exam-Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple **Quiz Application** developed using **React.js**. The application allows users to select a subject (Physics, Chemistry, or Mathematics) and attempt a quiz with randomly selected questions. Users can submit their answers and receive their score at the end.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Users can choose a subject: **Physics**, **Chemistry**, or **Mathematics**.
+- Randomly selects 10 questions from a predefined set of questions for each subject.
+- Users can select answers to multiple-choice questions.
+- Displays the final score as a popup after quiz submission.
+- Modern UI with a clean, transparent design and centered layout.
+
+## Technology Stack
+
+- **Frontend:** React.js
+- **Routing:** React Router
+- **Styling:** CSS (custom styles with no external interference)
+- **Dependencies:**
+  - `react-router-dom`: For navigation between components
+  - `Bootstrap`: For some UI components and layout
+
+## Project Structure
+
+```bash
+.
+├── public
+├── src
+│   ├── Components
+│   │   ├── Home.jsx            # Home page with subject selection
+│   │   ├── Quiz.jsx            # Subject selection component
+│   │   ├── QuestionPage.jsx    # Page displaying quiz questions
+│   │   ├── questions           # Folder containing hardcoded questions for each subject
+│   │       ├── chemistry.js
+│   │       ├── maths.js
+│   │       └── physics.js
+│   ├── App.js                  # Main application file
+│   ├── index.js                # ReactDOM entry point
+│   └── styles
+│       ├── Home.css
+│       ├── Quiz.css
+│       └── QuestionPage.css
+├── package.json
+└── README.md
+```
+
+## Installation
+
+  - Clone the repository:
+      ```bash
+      git clone https://github.com/yashpatil-25/exam-portal.git
+      ```
+
+  - Install dependencies:
+      ```bash
+      npm install
+      ```
+
+## Running the project
+  ```bash
+  npm run dev
+  ```
+
+## Live Demo
+
+[Exam-Portal](https://exam-portal-nu.vercel.app/)
