@@ -1,0 +1,106 @@
+/* Quiz Page Container */
+.quiz-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns items at the top */
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fc;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Questions List */
+  .questions-list {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-height: 60vh; /* Set maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option-label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .submit-quiz-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-quiz-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Score Popup */
+  .score-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .score-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .score-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .close-popup-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-popup-btn:hover {
+    background-color: #218838;
+  }
+  

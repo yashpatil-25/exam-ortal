@@ -1,0 +1,31 @@
+/* Quiz.css */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  .subject-options {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 123, 255, 1);
+  }
+  

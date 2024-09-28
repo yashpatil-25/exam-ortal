@@ -1,0 +1,43 @@
+/* Home.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(10px); /* Optional blur effect */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.start-quiz-btn {
+  padding: 12px 25px;
+  background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-quiz-btn:hover {
+  background-color: rgba(0, 123, 255, 1); /* Solid on hover */
+}
