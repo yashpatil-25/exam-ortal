@@ -18,13 +18,14 @@
   
   /* Questions List */
   .questions-list {
+    margin-top: 10vw;
     width: 100%;
     max-width: 800px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-height: 60vh; /* Set maximum height */
+    max-height: 100vh; /* Set maximum height */
     overflow-y: auto; /* Enable vertical scrolling */
   }
   
