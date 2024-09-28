@@ -60,6 +60,10 @@ This project is a simple **Quiz Application** developed using **React.js**. The 
   npm run dev
   ```
 
+## Flow Diagram
+
+![Exam-Portal-Flow-Diagram](https://github.com/user-attachments/assets/2e6cb9fb-288e-4df0-b3b0-4f328cc7994d)
+
 ## Live Demo
 
 [Exam-Portal](https://exam-portal-nu.vercel.app/)
